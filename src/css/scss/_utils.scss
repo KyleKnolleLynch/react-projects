@@ -1,0 +1,32 @@
+a,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+}
+
+button {
+  padding: 0.7rem 1.6rem;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid $white-color;
+  border-radius: 3rem;
+  color: $white-color;
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+img {
+  width: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
